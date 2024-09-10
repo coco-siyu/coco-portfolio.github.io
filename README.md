@@ -9,8 +9,8 @@ I hope to learn how to design a graphic that is considered as a Good Chart.
 
 Once I graduate, I would love to become a DA/DS as I am interested in Data.
 
-# Portfolio
-
+# Portfolio Link
+https://coco-siyu.github.io/coco-portfolio.github.io/
 ## Assignment: 
 
 ## Assignment 3&4: 
