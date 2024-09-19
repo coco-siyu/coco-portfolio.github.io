@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Redesign Process</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul {
+            margin-bottom: 1em;
+        }
+        code {
+            background-color: #eaeaea;
+            padding: 2px 4px;
+            font-family: monospace;
+        }
+        .step {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .screenshot {
+            border: 1px solid #ccc;
+            padding: 5px;
+            background-color: #fff;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .table th, .table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Data Visualization Redesign Process</h1>
+
+    <div class="step">
+        <h2>Step One: The Visualization</h2>
+        
+            I found this dataset very interesting as I am a dog person and used to have a dog. This visualization presents many interesting facts regarding dogs in NYC and the overall design is fun and witty. 
+            Hence, the design and the context caught my attention. At the same time, I also noticed that there are certain things could be adjusted such as the chart type, color usage, title naming, axis labeling, etc.
+        </p>
+        <div class="screenshot">
+            <img src="/images/assignment3/original-design.png" alt="Original Data Visualization" width="100%">
+            <p>
+                <a href="https://studentwork.prattsi.org/infovis/visualization/dog-breeds-data-visualization/" target="_blank">Original Data Visualization</a></p>
+            <p>
+        </div>
+    </div>
+
+    <div class="step">
+        <h2>Step Two: The Critique</h2>
+        <p>Summarize your critique from the Google Form. Discuss the strengths and weaknesses of the original visualization. You can also reference the key insights gained from analyzing the structure, design, and data representation.</p>
+    </div>
+
+    <div class="step">
+        <h2>Step Three: Sketch a Solution</h2>
+        <p>As the author has 6 designs, I chose 4 of them to redesign.</p>
+        <div class="screenshot">
+            <img src="/images/assignment3/map-redesign1.jpg" alt="Sketch of Redesign" width="100%">
+            <img src="/images/assignment3/popular-breeds.jpeg" alt="Sketch of Redesign" width="100%">
+            <img src="/images/assignment3/smart-vs-popularity.jpeg" alt="Sketch of Redesign" width="100%">
+            <img src="/images/assignment3/top5-breed.jpeg" alt="Sketch of Redesign" width="100%">
+        </div>
+    </div>
+
+    <div class="step">
+        <h2>Step Four: Test the Solution</h2>
+        <p>In this step, I presented the redesigned sketch to 2 people and collected feedback from them by asking questions listed below. By doing so, I am able to see from other perspectives and likely gain some valuable inputs.</p>
+        <!-- <ul>
+            <li>Can you tell me what you think this is?</li>
+            <li>Can you describe to me what this is telling you?</li>
+            <li>Is there anything you find surprising or confusing?</li>
+            <li>Who do you think is the intended audience for this?</li>
+            <li>Is there anything you would change or do differently?</li>
+        </ul> -->
+
+        <h3>Results</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Interview 1</th>
+                    <th>Interview 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>For this graphic, what do you see first?</td>
+                    <td>For the density map, the green shades and the circle plots caught my eye. There are also red dots spread out over the green map, with different sizes that probably representing different data values.</td>
+                    <td>I see the map first, and then the table for like the greens for dog spread and brown as dog bites.</td>
+                </tr>
+                <tr>
+                    <td>Can you describe to me what this is telling you?</td>
+                    <td>The graph is telling the relationship between the dog distribution and the cases of dog bites in NYC. The darker the green dot is, the denser of the dog distribution. The darker the red color is, the larger the number of cases of dog bites in that area.</td>
+                    <td>It's telling me that there are like a lot of dogs and also many dog bites.</td>
+                </tr>
+                <tr>
+                    <td>Is there anything you found confusing?</td>
+                    <td>There isn’t a very obvious correlation of the two variables detected from this graph, which makes me look forward to the real visualization given the more intensive real data. </td>
+                    <td>Not a clear relationship yet and the color usage right now could be changed.</td>
+                </tr>
+                <tr>
+                    <td>Who do you think is the intended audience for this?</td>
+                    <td>Social worker, policymaker, pet hospital, dog owner, general public</td>
+                    <td>The intended audience for this could be like animal helping department of the city council or something like that. So, like, remind people that we need more dog bites everywhere</td>
+                </tr>
+                <tr>
+                    <td>Is there anything you would change or do differently?</td>
+                    <td>I’m not sure if I’m correct, but green and red can be challenging to use together in data visualization because they can cause problems for people with color blindness. Consider using blue as the background and a darker color for the dots.</td>
+                    <td>I'll probably change the color of the the indications. Like for dog, use something more neutral instead of like green cause green always means like correct and red always means like wrong. So use a different color for for the dogs and then another color for dog bites. Maybe you can do like a icon or something. Um, that helps.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Synthesis</h3>
+        <p>
+            Suggested Improvements:
+            Change the Color Scheme: Address the accessibility issue with the green and red colors, considering colorblind-friendly palettes. Switching to more neutral or contrasting colors (e.g., blue and darker shades) was a common recommendation.
+            Icons and Symbols: Use symbols, like paw prints for dog distribution and bite marks for dog bites, to make the representation more intuitive.
+            Refining the Message: Since the correlation between the two variables was not immediately clear, adding additional context or improving how the data relationship is visualized (e.g., through tooltips or labeling) could help.
+            Influence on the Final Redesign:
+            Based on the feedback, the redesign will focus on:
+            
+            Improving Accessibility: Redesigning the color palette to be more accessible for users with color blindness and avoiding traditional color associations (green for correct, red for wrong).
+            Using Symbols: Incorporating visual symbols like icons to distinguish between different data points more clearly, ensuring the audience quickly understands what each plot represents.
+            Enhancing Clarity: Adding visual aids or annotations that more explicitly show the relationship between dog distribution and dog bite cases to improve the graph's interpretability.        </p>
+    </div>
+
+    <div class="step">
+        <h2>Step Five: Build the Solution</h2>
+        <p>Include the final data visualization. Describe the changes you made and why you selected this final version. Discuss how it addresses the original critique and user feedback.</p>
+        <div class="screenshot">
+            <img src="FINAL_VISUALIZATION_IMAGE" alt="Final Redesigned Visualization" width="100%">
+        </div>
+        <p>Summarize your thoughts on the overall process. Reflect on what you learned and how the redesign journey helped improve the final outcome.</p>
+    </div>
+
+</body>
+</html>
