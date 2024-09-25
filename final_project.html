@@ -11,6 +11,21 @@
 </head>
 <body>
    
+        <div class="row">
+            <nav class="nav" role="navigation">
+            <ul class="nav__items">
+                <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                <!-- <li class="nav__item"><a href="#learn" class="nav__link">Learn</a></li>
+                <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+                </li> -->
+            </ul>
+            </nav>
+        </div>
+ 
     <section class="summary" id="summary">
         <div class="row">
             <h2>High-Level Summary</h2>
@@ -43,7 +58,9 @@
                 </li>
                 <li>
                     <h3>Economic and Environmental Consequences</h3>
-                    <p>Visuals depict the staggering costs of wildfires, including property damage, forest loss, and recovery efforts. Another visual will focus on CO2 emissions, showing the environmental impact wildfires have on contributing to global warming.</p>
+                    <p>
+                        Visuals depict the staggering costs of wildfires, including property damage, forest loss, and recovery efforts. Another visual will focus on CO2 emissions, showing the environmental impact wildfires have on contributing to global warming.
+                    </p>
                 </li>
                 <li>
                     <h3>Call to Action</h3>
@@ -51,58 +68,67 @@
                         The final section motivates viewers to support wildfire prevention efforts, stay informed about local fire risks, and advocate for stronger climate policies. It will close with a personal appeal for individual and collective action.
                     </p>
                 </li>
+                <li>
+                    <img src="./images/final/audience_journey.JPG" alt="Audience Journey" width = "650px" height="2400px" >
+                </li>
             </ol>
         </div>
     </section>
 
-    <section class="data" id="data">
-        <div class="row">
+    <section class ="sketches" id = "sketches">
+        <div class = "row">
             <h2>Initial Sketches</h2>
             <ul>
                 <li><strong>Map-based visualizations:</strong> showing wildfire hotspots across the U.S. from the past 10 years.</li>
                 <li><strong>Line charts:</strong> representing the frequency of wildfires over time, and bar charts showing their economic and environmental impact.</li>
                 <li><strong>Impact visualizations:</strong> displaying the rise in CO2 emissions and forest destruction due to wildfires.</li>
             </ul>
+        </div>
+    </section>
+    <section class="data" id="data">
+        <div class="row">
 
             <h2>The Data</h2>
             <p>This project will utilize several public datasets, including:</p>
             <ul>
-                <li><strong>NASA's Fire Information for Resource Management System (FIRMS):</strong> This dataset provides near real-time fire locations and information on fire intensity.</li>
-                <li><strong>National Interagency Fire Center (NIFC):</strong> Historical data on wildfire occurrences, acres burned, and suppression costs.</li>
+                <li>
+                    <strong>California Department of Forestry and Fire Protection (CAL FIRE) - Fire Perimeters and Incident Data:</strong> Contains detailed information on wildfire incidents in California, including the cause of the fire (arson, equipment use, campfires, etc.).
+                </li>
+                <li>
+                    <strong>National Interagency Fire Center (NIFC):</strong> Historical data on wildfire occurrences, acres burned, and suppression costs.
+                </li>
                 <li><strong>Environmental Protection Agency (EPA):</strong> Data on air quality and CO2 emissions related to wildfires.</li>
             </ul>
             <p>These datasets will be used to visualize wildfire occurrences over time, the geographic distribution of wildfires, and their impact on air quality and the environment. The data will be preprocessed for consistency and will be displayed in a clear, intuitive format to communicate key findings effectively.</p>
+            <h2>Data Sources</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>URL</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cal Fire</td>
+                        <td><a href="https://www.fire.ca.gov/incidents">[URL]</a></td>
+                        <td>Real-time wildfire locations and intensity data.</td>
+                    </tr>
+                    <tr>
+                        <td>NIFC</td>
+                        <td><a href="[URL]">[URL]</a></td>
+                        <td>Historical wildfire data, including acreage burned and economic costs.</td>
+                    </tr>
+                    <tr>
+                        <td>EPA</td>
+                        <td><a href="[URL]">[URL]</a></td>
+                        <td>Air quality and emissions data impacted by wildfires.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
-
-    
-    <h2>Data Sources</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>URL</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>NASA FIRMS</td>
-                <td><a href="[URL]">[URL]</a></td>
-                <td>Real-time wildfire locations and intensity data.</td>
-            </tr>
-            <tr>
-                <td>NIFC</td>
-                <td><a href="[URL]">[URL]</a></td>
-                <td>Historical wildfire data, including acreage burned and economic costs.</td>
-            </tr>
-            <tr>
-                <td>EPA</td>
-                <td><a href="[URL]">[URL]</a></td>
-                <td>Air quality and emissions data impacted by wildfires.</td>
-            </tr>
-        </tbody>
-    </table>
     <section class="method" id="method">
         <div class="row">
             <h2>Method and Medium</h2>
