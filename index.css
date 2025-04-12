@@ -38,12 +38,21 @@
 
     --black: #000;
     --pink: #ff3258;
+    --red: #b23850;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
     --slate-green: #35524A;
     --slate-gray: #020202;
+    --slate-blue: #4287f5;
 
-
+    /* gpt suggested */
+    --background-main: #0D1B2A;
+    --background-accent: #1B263B;
+    --primary-color: #415A77;
+    --secondary-color: #778DA9;
+    --text-color: #E0E1DD;
+    --highlight: #E0E1DD;
+    /* done */
     --container-max-width: 1180px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
@@ -74,10 +83,13 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    /* color: var(--white); */
     line-height: var(--line-height-normal);
-    background: var(--slate-green);
+    background: var(--slate-blue);
     overflow-x: hidden;
+    /* gpt suggested */
+    background-color: var(--background-main);
+    color: var(--text-color);
 }
 
 .row {
@@ -190,6 +202,33 @@ p {
 /* --------------------------------------- */
 /* ----- Buttons and Links ----- */
 /* --------------------------------------- */
+
+a,
+.btn,
+.nav__link {
+  color: var(--text-color);
+}
+
+.floating-card {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  border-radius: 2rem;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--highlight);
+  font-weight: bold;
+  border-radius: 5px;
+  /* transition: background 0.3s; */
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
 
 a {
     color: var(--white);

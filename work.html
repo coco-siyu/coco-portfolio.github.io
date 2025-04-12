@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coco Chen | Data Enthusiast</title>
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coco Chen | My Projects</title>
+  <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
 </head>
 <body>
-  <header class="header" role="banner" id="top">
+  <header class="header" role="banner">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="work.html" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#learn" class="nav__link">Learn</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="index.html#learn" class="nav__link">Learn</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="header__text-box row">
       <div class="header__text">
-        <h1 class="heading-primary"><span>Coco Chen</span></h1>
-        <p>Passionate about data, design, and digital storytelling.</p>
-        <a href="#contact" class="btn btn--pink">Contact</a>
+        <h1 class="heading-primary"><span>My Projects</span></h1>
+        <p>A collection of data stories, visualizations, and design makeovers.</p>
       </div>
     </div>
   </header>
+
   <main role="main">
-    <section class="about" id="about">
+    <section class="work">
       <div class="row floating-card">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>Hi, I'm Siyu (Coco) Chen. I'm a data enthusiast, traveler, and creator. I recently graduated from Carnegie Mellon University with a Master's in Information Systems Management.</p>
-            <p>In my free time, you'll find me baking, watching musicals, reading, or discovering hidden gems outdoors.</p>
-            <a href="#" class="btn">My Resume</a>
-          </div>
-          <div class="about__photo-container">
-            <img class="about__photo" src="./images/coco-chen.jpeg" alt="Coco Chen" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="work" id="work">
-      <div class="row floating-card">
-        <h2>My Work</h2>
         <div class="work__boxes">
+
+          <!-- Project 1 -->
           <div class="work__box">
             <div class="work__text">
               <h3>Wildfire Project</h3>
@@ -57,7 +42,6 @@
                 <li>Shorthand</li>
                 <li>Python</li>
               </ul>
-              <p>This project consists of three parts, outlined below. You can see how it was developed and refined through iterative feedback:</p>
               <ul>
                 <li><a href="final_project.html">Part 1: Initial Research and Data Collection</a></li>
                 <li><a href="final_project2.html">Part 2: Data Analysis and Visualization</a></li>
@@ -75,10 +59,11 @@
             </div>
           </div>
 
+          <!-- Project 2 -->
           <div class="work__box">
             <div class="work__text">
               <h3>Data Visualization Makeover</h3>
-              <p>Redesigning a visualization is a step that Data Analysts must encounter in their life. In this practice, I chose the <a href="https://studentwork.prattsi.org/infovis/visualization/dog-breeds-data-visualization/" target="_blank">Dog breeds data visualization</a> to do the makeover.</p>
+              <p>I redesigned a flawed data visualization for dog breeds using storytelling and accessibility principles.</p>
               <div class="work__links">
                 <a href="assignment3.html" class="link__text">Visit Site <span>&rarr;</span></a>
                 <a href="assignment3.html"><img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub"></a>
@@ -91,13 +76,16 @@
             </div>
           </div>
 
+          <!-- Project 3 -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Assignment 2 Government Debt Project</h3>
-              <p>Here to present my projects.</p>
+              <h3>Government Debt Visualization</h3>
+              <p>Analyzing and visualizing state-level debt trends across the U.S. through Tableau dashboards and highlight tables.</p>
               <div class="work__links">
-                <a href="assignement2.html" target="_blank" class="link__text">Go to the Project Site <span>&rarr;</span></a>
-                <a href="https://github.com/coco-siyu" title="View Source Code" target="_blank"></a>
+                <a href="assignement2.html" target="_blank" class="link__text">Go to Project <span>&rarr;</span></a>
+                <a href="https://github.com/coco-siyu" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="Assignment 2">
+                </a>
               </div>
             </div>
             <div class="work__image-box">
@@ -106,19 +94,12 @@
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </section>
   </main>
-  <section class="contact" id="contact">
-    <div class="row floating-card">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>Let's connect! Whether it's feedback, opportunities, or a quick hello — drop me a line anytime.</p>
-        <a href="mailto:siyuchen0311@outlook.com" class="btn">Email Me</a>
-      </div>
-    </div>
-  </section>
+
   <footer class="footer">
     <div class="row">
       <ul class="footer__social-links">
